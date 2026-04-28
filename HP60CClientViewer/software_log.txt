@@ -1,0 +1,105 @@
+2026-04-27 14:21:41 [warning]Open camera fail,Error code:-82
+2026-04-27 14:22:01 [warning]Open camera fail,Error code:-82
+2026-04-27 14:23:03 [warning]Open camera fail,Error code:-82
+2026-04-27 14:23:05 [warning]Open camera fail,Error code:-82
+2026-04-27 14:23:07 [warning]Open camera fail,Error code:-82
+2026-04-27 14:23:09 [warning]Open camera fail,Error code:-82
+2026-04-27 14:23:17 [debug]Data manager Recording  streamRecordCheck: 0
+2026-04-27 14:23:18 [debug]Data manager Recording  streamRecordCheck: 0
+2026-04-27 14:23:18 [debug]Data manager Recording  streamRecordCheck: 0
+2026-04-27 14:23:18 [debug]Data manager Recording  streamRecordCheck: 0
+2026-04-27 14:23:19 [debug]Data manager Recording  streamRecordCheck: 0
+2026-04-27 14:23:21 [info]##Depth  onIsPlayVideoChanged isPlay:false
+2026-04-27 14:23:22 [info]##Depth  onIsPlayVideoChanged isPlay:true
+2026-04-27 14:23:23 [info]##Depth  onIsSaveImageChanged saveImage
+2026-04-27 14:23:35 [warning]Open camera fail,Error code:-82
+2026-04-27 14:23:37 [warning]Open camera fail,Error code:-82
+2026-04-27 14:23:39 [warning]Open camera fail,Error code:-82
+2026-04-27 14:23:50 [warning]Open camera fail,Error code:-82
+2026-04-27 14:25:29 [info]##RGB  onIsShowInfoChanged showInfo:true
+2026-04-27 14:25:29 [info]##RGB  onIsShowInfoChanged showInfo:true
+2026-04-27 14:25:30 [info]##RGB  onIsShowInfoChanged showInfo:true
+2026-04-27 14:25:30 [info]##RGB  onIsShowInfoChanged showInfo:true
+2026-04-27 14:26:54 [info]Close Nuwa-HP60C
+2026-04-27 14:27:13 [debug]Data manager start Stream deviceID: 0
+2026-04-27 14:27:21 [debug]Data manager stop Stream deviceID: 0
+2026-04-27 14:27:24 [debug]Data manager start Stream deviceID: 0
+2026-04-27 14:27:24 [debug]Data manager stop Stream deviceID: 0
+2026-04-27 14:27:51 [debug]Data manager start Stream deviceID: 0
+2026-04-27 14:27:52 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:27:54 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:28:16 [debug]Data manager start Stream deviceID: 0
+2026-04-27 14:28:54 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:28:59 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:00 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:00 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:01 [debug]Data manager start Stream deviceID: 0
+2026-04-27 14:29:02 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:02 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:02 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:02 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:03 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:03 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:03 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:03 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:04 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:04 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:04 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:04 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:04 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:05 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:05 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:05 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:06 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:06 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:06 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:06 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:06 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:07 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:07 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:08 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:09 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:10 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:32 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:34 [debug]Data manager start Stream deviceID: 0
+2026-04-27 14:29:34 [debug]Data manager pause Stream deviceID: 0
+2026-04-27 14:29:37 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:38 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:38 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:38 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:29:47 [info]##Depth  onIsSaveImageChanged saveImage
+2026-04-27 14:45:45 [debug]Data manager start Capture deviceID: 0
+2026-04-27 14:45:52 [debug]Data manager start Stream deviceID: 0
+2026-04-27 14:46:31 [debug]Data manager start Stream deviceID: 0
+2026-04-27 14:46:48 [info]##RGB  onIsShowInfoChanged showInfo:true
+2026-04-27 14:47:00 [debug]Data manager start Stream deviceID: 0
+2026-04-27 14:47:02 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 14:47:03 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 14:47:03 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 14:47:03 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 14:47:03 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 14:47:03 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 14:47:04 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 14:47:04 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 14:47:04 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 14:47:06 [info]##Depth  onIsShowInfoChanged showInfo
+2026-04-27 14:47:20 [debug]Data manager start Stream deviceID: 0
+2026-04-27 14:54:31 [info]##RGB  onIsShowInfoChanged showInfo:true
+2026-04-27 14:54:46 [info]##RGB  onIsPlayVideoChanged isPlay:false
+2026-04-27 14:54:47 [info]##RGB  onIsPlayVideoChanged isPlay:true
+2026-04-27 14:54:48 [info]##RGB  onIsShowInfoChanged showInfo:true
+2026-04-27 15:58:50 [info]Close Nuwa-HP60C
+2026-04-27 15:59:34 [info]Close Nuwa-HP60C
+2026-04-27 16:02:37 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 16:02:38 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-27 16:37:16 [info]Close Nuwa-HP60C
+2026-04-27 16:37:19 [warning]Open stream fail,Error code:-1
+2026-04-28 11:19:29 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-28 11:19:30 [info]##RGB  onIsSaveImageChanged saveImage:true
+2026-04-28 11:19:31 [info]##Depth  onIsSaveImageChanged saveImage
+2026-04-28 11:19:33 [info]##Depth  onIsSaveImageChanged saveImage
+2026-04-28 11:20:26 [debug]Data manager Recording  streamRecordCheck: 0
+2026-04-28 11:20:30 [debug]Data manager start Stream deviceID: 0
+2026-04-28 11:20:33 [debug]Data manager pause Stream deviceID: 0
+2026-04-28 11:20:37 [debug]Data manager start Stream deviceID: 0
+2026-04-28 11:20:53 [debug]Data manager Capture  saveImageCheck: 0
