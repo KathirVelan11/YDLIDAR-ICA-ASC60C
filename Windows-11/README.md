@@ -40,7 +40,7 @@ The **HP60CClientViewer** (also called *EAIViewer*) is the official YDLIDAR GUI.
 ### Run
 
 ```powershell
-cd HP60CClientViewer
+cd Windows-11\HP60CClientViewer
 .\AngstrongViewer.exe
 ```
 
@@ -87,7 +87,7 @@ Build and run the C++ SDK to get a command-line tool (`ascamera.exe`) for custom
 ### One-Time Build
 
 ```powershell
-cd EaiCameraSdk
+cd Windows-11\EaiCameraSdk
 mkdir build
 cd build
 cmake .. -G "Visual Studio 17 2022" -A x64
@@ -97,7 +97,7 @@ cmake --build . --config Release
 ### Run
 
 ```powershell
-cd EaiCameraSdk\build
+cd Windows-11\EaiCameraSdk\build
 .\Release\ascamera.exe
 ```
 
@@ -135,7 +135,7 @@ std::string pclPath = "Output/PointCloud/" + std::to_string(index) + "_PointClou
 
 Rebuild after editing:
 ```powershell
-cd EaiCameraSdk\build
+cd Windows-11\EaiCameraSdk\build
 cmake --build . --config Release
 ```
 
