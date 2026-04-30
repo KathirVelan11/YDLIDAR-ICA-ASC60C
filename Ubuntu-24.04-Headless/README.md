@@ -176,6 +176,44 @@ This is because `libopencv-dev` fails to install correctly on ARM64 in the 24.04
 
 During our testing, we collected **RGB frames only**. Depth maps and point clouds are extracted from the raw data by the SDK, but the primary output is the RGB `.jpg` files.
 
+### Known Limitation: 640 × 480 Resolution Lock
+
+Despite the datasheet stating a maximum RGB resolution of 1920 × 1080, the camera always streams at 640 × 480 on both Linux and Windows. This is a **firmware-level limitation**.
+
+#### What Controls the Resolution
+
+Four layers must agree before a stream starts:
+
+1. **User code (Demo.cpp)** — sets desired width/height via the SDK
+2. **libAngstrongCameraSdk.so** — validates against an internal table, reads the encrypted config file, communicates with firmware
+3. **Camera firmware** — implements the UVC descriptor table and drives the sensor
+4. **Config file** — `hp60c_v2_00_20230704_configEncrypt.json`; holds exposure, gain, and depth parameters only
+
+#### Attempts Made on Linux
+
+| Attempt | Action | Result |
+|---------|--------|--------|
+| 1 | Modified `Demo.cpp` to request 1280×720 | SDK rejects with "Not support width, height or FPS" |
+| 2 | Used `v4l2-ctl --list-formats-ext` to query firmware directly | UVC descriptor lists 1280×720 @ 30fps MJPEG |
+| 3 | Tried capturing at 1280×720 via OpenCV (`cv2.VideoCapture`) | Camera times out — firmware won't deliver frames at this resolution |
+| 4 | Tried `fswebcam -r 1280x720` | "Timed out waiting for frame" |
+| 5 | Tried `ffmpeg -video_size 1280x720` | "Cannot determine format of input stream" |
+| 6 | Called `AS_SDK_GetCapability()` from SDK | Function exists but produced no output (likely needs stream active first) |
+| 7 | Decrypted the config file (AES-256-CBC, key extracted from `.so`) | Contains only depth processing and calibration parameters — no resolution fields |
+| 8 | Used Python OpenCV with V4L2 backend at 640×480 | ✅ Works perfectly — confirmed BGR frames at (640, 640, 3) |
+
+#### What We Learned
+
+- The firmware's UVC descriptor lists 1280×720, but the active stream defaults to 640×480 and refuses to switch
+- The config file is encrypted with AES-256-CBC (key: `199101201949100120230203cfdfefff`) and contains no resolution settings
+- Python OpenCV works directly via V4L2 at 640×480 — no SDK needed for RGB
+- The C++ SDK (`ascamera`) saves RGB, depth, and point cloud successfully at 640×480
+- Same firmware limitation exists on Windows — hex-patching the DLL there also failed
+
+#### How You Can Help
+
+If you have experience with USB video device firmware, UVC driver development, or reverse engineering, we'd love to collaborate. The camera hardware is capable of 1280×720 — we just need a way to tell the firmware to use it. Open an issue or pull request!
+
 ---
 
 ## 📁 Output Structure
